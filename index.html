@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片滑块对比差异功能 - Image Compare Slider</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="image-change-block">
+            <div class="desc-container">
+                <div class="before-desc">新</div>
+                <div class="after-desc">旧</div>
+            </div>
+            <img src="./assets/image/ad-red-car-damaged.webp" class="old-img" />
+            <div class="clip-container" id="clipContainer">
+                <img src="./assets/image/ad-red-car.webp" class="new-img" id="newImg" />
+            </div>
+            <div class="handle-container">
+                <div class="bar-btn" id="barBtn"></div>
+                <div class="bar-line" id="barLine"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/js/index.js"></script>
+
+</html>
